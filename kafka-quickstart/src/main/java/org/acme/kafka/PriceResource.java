@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.kafka;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -6,7 +6,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/hello-resteasy")
-public class GreetingResource {
+public class PriceResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
